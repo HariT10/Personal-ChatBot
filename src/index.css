@@ -276,3 +276,60 @@ body{
   cursor: pointer;
 
 }
+
+
+
+
+
+@media (max-width: 600px) {
+
+  .chatbotPop {
+    width: 90%; /* shrink to screen */
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .chatbotHeader {
+    padding: 15px 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .chatbotHeaderInfo {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .chatbotHeaderInfo .logoText {
+    font-size: 16px;
+  }
+
+  .chatBody {
+    padding: 10px 15px;
+    height: 400px;
+    gap: 15px;
+    margin-bottom: 60px;
+  }
+
+  .chatBody .messageT {
+    font-size: 14px;
+    max-width: 80%;
+  }
+
+  .chatbotFooter {
+    padding: 10px 15px 15px;
+  }
+
+  .chatbotFooter .message-input {
+    font-size: 14px;
+    height: 45px;
+    padding: 8px;
+  }
+
+  .chatbotFooter button {
+    height: 36px;
+    width: 36px;
+  }
+}
